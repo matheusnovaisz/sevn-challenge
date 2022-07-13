@@ -1,0 +1,15 @@
+{
+  "name": "sevn-backend",
+  "version": "1.0.0",
+  "description": "API de Noticias para teste técnico da Sevn",
+  "main": "app.js",
+  "author": "Matheus Novais",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
