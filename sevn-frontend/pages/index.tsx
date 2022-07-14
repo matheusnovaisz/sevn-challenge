@@ -10,8 +10,6 @@ interface HomePageProps{
 }
 
 const Home: NextPage<HomePageProps> = ({mainNews, secondaryNews}) => {
-  console.log(mainNews)
-  console.log(secondaryNews)
   return (
     <div className={styles.container}>
       <Head>
@@ -25,9 +23,7 @@ const Home: NextPage<HomePageProps> = ({mainNews, secondaryNews}) => {
           {mainNews.map(news => <h1 key={news.id}>{news.title}</h1>)}
         </div>
         <div>
-          <h3>
-            {secondaryNews.map(news => <h2 key={news.id}>{news.title}</h2>)}
-          </h3>
+          {secondaryNews.map(news => <h2 key={news.id}>{news.title}</h2>)}
         </div>
       </main>
     </div>
