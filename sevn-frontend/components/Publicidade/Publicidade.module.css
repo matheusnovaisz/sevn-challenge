@@ -1,0 +1,15 @@
+.ad{
+  border-radius: 1rem;
+  background-color: #EBEFF1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19rem;
+}
+
+.ad > p{
+  font-size: 3.3rem;
+  font-weight: bold;
+  opacity: 0.28;
+}

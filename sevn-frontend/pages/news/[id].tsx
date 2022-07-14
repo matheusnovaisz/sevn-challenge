@@ -1,5 +1,6 @@
 import { GetStaticPaths, GetStaticPathsResult, GetStaticProps, GetStaticPropsContext } from "next"
 import { ParsedUrlQuery } from "querystring"
+import Publicidade from "../../components/Publicidade";
 import { Post } from "../../utils/interfaces/Post.interface";
 
 interface IParams extends ParsedUrlQuery{
@@ -14,6 +15,7 @@ export default function NewsPage({post}: NewsPageProps){
   return (
     <div>
       <h1>{post.title}</h1>
+      <Publicidade />
     </div>
   )
 }

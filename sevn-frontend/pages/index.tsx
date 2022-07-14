@@ -1,6 +1,7 @@
 import type { GetServerSideProps, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Publicidade from '../components/Publicidade'
 import styles from '../styles/Home.module.css'
 import { Post } from '../utils/interfaces/Post.interface'
 
@@ -19,6 +20,7 @@ const Home: NextPage<HomePageProps> = ({mainNews, secondaryNews}) => {
       </Head>
 
       <main className={styles.main}>
+        <Publicidade />
         <div>
           {mainNews.map(news => <h1 key={news.id}>{news.title}</h1>)}
         </div>
