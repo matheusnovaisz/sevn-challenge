@@ -11,6 +11,6 @@ export interface Post {
   author: string;
   type: string;
   postedAt: Date;
-  image: PostImage;
+  image: PostImage | null;
   body: string;
 }

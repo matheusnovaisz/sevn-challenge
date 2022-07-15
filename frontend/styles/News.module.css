@@ -1,0 +1,48 @@
+.container {
+  padding-inline: 2rem;
+  margin-block: 5rem;
+  display: grid;
+  gap: clamp(2rem, 5vw, 3rem);
+}
+
+.container > div > h6 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.container div > h1{
+  font-size: clamp(2.8rem, 3vw, 5.8rem);
+  line-height: clamp(3rem, 3vw, 6rem);
+}
+
+.container h5 {
+  opacity: 0.28;
+  font-size: 1.2rem;
+}
+
+.container > h2{
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  font-weight: 400;
+}
+
+.container > .body{
+  display: grid;
+  gap: 2rem;
+}
+
+.container > .body > p{
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 2.6rem;
+}
+
+.container .image{
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+}
+
+@media (min-width: 900px){
+  .container{
+    padding-inline: 15rem;
+  }
+}
