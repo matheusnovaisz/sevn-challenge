@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.categories{
+.categories, .mainNews{
   display: grid;
   gap: 2rem;
 }
@@ -25,11 +25,11 @@
 
 @media (min-width: 900px){
 
-  .categories{
+  .categories, .mainNews{
     display: flex
   }
 
-  .categories > .secondaryNews:first-child{
+  .categories > .secondaryNews:first-child, .mainNews > *:first-child{
     width: 50%;
   }
 
@@ -37,7 +37,7 @@
     width: calc(50% - 2rem);
   }
   
-  .categories > .secondaryNews{
+  .categories > .secondaryNews, .mainNews > *{
     width: 25%;
   }
 }

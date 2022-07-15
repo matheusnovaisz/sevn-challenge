@@ -1,0 +1,14 @@
+.headline > p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: clamp(5.8rem, 2vw, 6.4rem);
+  font-weight: bold;
+  line-height: 6rem;
+}
+
+@media (min-width: 900px){
+}
