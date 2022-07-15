@@ -29,7 +29,7 @@ export const news = [
     },
   {
     id: 2,
-    title: "Quem não tiver valores a receber nesta etapa poderá ter nas próximas fases, diz BC",
+    title: "Quem não tiver valores a receber poderá ter nas próximas fases, diz BC",
     subtitle: "Nesta primeira fase do serviço são cerca de R$ 4 bilhões a serem devolvidos. Banco Central estima que os clientes tenham a receber cerca de R$ 8 bilhões.", 
     category: "Economia",
     author: "Redação",
@@ -57,7 +57,7 @@ export const news = [
     },
   {
     id: 3,
-    title: "Quem não tiver valores a receber nesta etapa poderá ter nas próximas fases, diz BC",
+    title: "Quem não tiver valores a receber poderá ter nas próximas fases, diz BC",
     subtitle: "Nesta primeira fase do serviço são cerca de R$ 4 bilhões a serem devolvidos. Banco Central estima que os clientes tenham a receber cerca de R$ 8 bilhões.", 
     category: "Economia",
     author: "Redação",
@@ -85,7 +85,7 @@ export const news = [
     },
   {
     id: 4,
-    title: "Quem não tiver valores a receber nesta etapa poderá ter nas próximas fases, diz BC",
+    title: "Quem não tiver valores a receber poderá ter nas próximas fases, diz BC",
     subtitle: "Nesta primeira fase do serviço são cerca de R$ 4 bilhões a serem devolvidos. Banco Central estima que os clientes tenham a receber cerca de R$ 8 bilhões.", 
     category: "Economia",
     author: "Redação",
@@ -113,11 +113,11 @@ export const news = [
     },
   {
     id: 5,
-    title: "Quem não tiver valores a receber nesta etapa poderá ter nas próximas fases, diz BC",
+    title: "Quem não tiver valores a receber poderá ter nas próximas fases, diz BC",
     subtitle: "Nesta primeira fase do serviço são cerca de R$ 4 bilhões a serem devolvidos. Banco Central estima que os clientes tenham a receber cerca de R$ 8 bilhões.", 
     category: "Economia",
     author: "Redação",
-    type: "main",
+    type: "secondary",
     postedAt: new Date("2022-02-13T16:30:00+00:00"),
     image: {
       url: "images/banco-central.jpg",
@@ -145,7 +145,7 @@ export const news = [
     subtitle: "Pesquisa aponta que maioria dos alunos necessita de reforço no retorno às aulas presenciais",
     category: "Educação",
     author: "Redação",
-    type: "secondary",
+    type: "main",
     postedAt: new Date("2022-02-13T15:30:00+00:00"),
     image: {
       url: "images/educacao.jpg",
@@ -206,56 +206,12 @@ export const news = [
           Pellentesque quis justo quam. Suspendisse potenti. In dignissim euismod faucibus. Nullam eros massa, gravida non ipsum sollicitudin, volutpat tristique nisi. Nulla tempor mauris vitae nisi sollicitudin, non euismod elit egestas. Cras dui velit, luctus eget laoreet in, feugiat consequat nisl. Ut gravida, nisi non rutrum fringilla, eros justo sollicitudin elit, a lacinia elit turpis non nulla. Sed vel ex accumsan ex rhoncus finibus. Aenean et tortor elementum, luctus lorem vel, consequat lectus. Curabitur id mi in velit iaculis egestas. In in elit eu diam vehicula gravida non a ipsum.`
   },
   {
-    id: 9,
-    title: "Datafolha: Após ensino remoto, 76% precisam de reforço na alfabetização", 
-    subtitle: "Pesquisa aponta que maioria dos alunos necessita de reforço no retorno às aulas presenciais",
-    category: "Educação",
-    author: "Redação",
-    type: "secondary",
-    postedAt: new Date("2022-02-13T15:30:00+00:00"),
-    image: {
-      url: "images/educacao.jpg",
-      alt: "Professora com máscara ensinando à um aluno"
-    },
-    body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in efficitur quam. Nulla auctor lacus ut lacus aliquam convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque efficitur justo mauris, ac dictum erat rhoncus aliquam. Cras quis consectetur erat. Fusce dignissim eget nisi sit amet aliquet. Duis ac eleifend magna. Cras volutpat nunc orci, ut feugiat ipsum fringilla eu. In sollicitudin massa vitae tellus tincidunt euismod. Praesent faucibus posuere justo, sit amet faucibus metus vulputate in. Donec cursus enim vitae ex porttitor, non accumsan ex lobortis.
-
-          Integer tempor eget tellus quis tristique. Donec tincidunt volutpat ex sit amet feugiat. Morbi non efficitur nibh, et euismod felis. Praesent quis sem sit amet dui faucibus finibus. Fusce id nunc malesuada, placerat massa id, sodales erat. Morbi condimentum nunc ac orci eleifend hendrerit. Suspendisse molestie pulvinar sapien eget venenatis. Fusce a sapien augue. Maecenas volutpat magna et urna tristique sollicitudin.
-
-          Nunc eget molestie est. Fusce consequat bibendum tempus. Nunc a tincidunt arcu. Etiam et tempor metus. Aliquam erat volutpat. Donec nec tristique nulla, ut finibus ante. Donec diam felis, interdum ut erat non, rutrum pretium quam. Quisque nec imperdiet leo.
-    
-          In ornare vel urna at mollis. Sed libero quam, consectetur a suscipit iaculis, viverra ac est. Nullam feugiat venenatis nulla, quis gravida purus consectetur eget. Sed facilisis nulla a turpis eleifend ornare. Pellentesque nec diam nisl. Nulla quis ante eu mauris rhoncus vehicula at id arcu. Maecenas ut dapibus ipsum, vitae hendrerit metus. Aliquam eu posuere ipsum. Fusce in augue rhoncus, varius metus nec, ultrices odio. Quisque mollis augue justo, eu commodo orci posuere non. Donec ac augue mi. Sed in velit non augue aliquet sodales ut maximus metus. Mauris vel porta ante. Aenean varius massa lacus, quis cursus arcu hendrerit porta. Curabitur aliquet scelerisque diam.
-    
-          Pellentesque quis justo quam. Suspendisse potenti. In dignissim euismod faucibus. Nullam eros massa, gravida non ipsum sollicitudin, volutpat tristique nisi. Nulla tempor mauris vitae nisi sollicitudin, non euismod elit egestas. Cras dui velit, luctus eget laoreet in, feugiat consequat nisl. Ut gravida, nisi non rutrum fringilla, eros justo sollicitudin elit, a lacinia elit turpis non nulla. Sed vel ex accumsan ex rhoncus finibus. Aenean et tortor elementum, luctus lorem vel, consequat lectus. Curabitur id mi in velit iaculis egestas. In in elit eu diam vehicula gravida non a ipsum.`
-  },
-  {
-    id: 10,
-    title: "Datafolha: Após ensino remoto, 76% precisam de reforço na alfabetização", 
-    subtitle: "Pesquisa aponta que maioria dos alunos necessita de reforço no retorno às aulas presenciais",
-    category: "Educação",
-    author: "Redação",
-    type: "main",
-    postedAt: new Date("2022-02-13T15:30:00+00:00"),
-    image: {
-      url: "images/educacao.jpg",
-      alt: "Professora com máscara ensinando à um aluno"
-    },
-    body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in efficitur quam. Nulla auctor lacus ut lacus aliquam convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque efficitur justo mauris, ac dictum erat rhoncus aliquam. Cras quis consectetur erat. Fusce dignissim eget nisi sit amet aliquet. Duis ac eleifend magna. Cras volutpat nunc orci, ut feugiat ipsum fringilla eu. In sollicitudin massa vitae tellus tincidunt euismod. Praesent faucibus posuere justo, sit amet faucibus metus vulputate in. Donec cursus enim vitae ex porttitor, non accumsan ex lobortis.
-
-          Integer tempor eget tellus quis tristique. Donec tincidunt volutpat ex sit amet feugiat. Morbi non efficitur nibh, et euismod felis. Praesent quis sem sit amet dui faucibus finibus. Fusce id nunc malesuada, placerat massa id, sodales erat. Morbi condimentum nunc ac orci eleifend hendrerit. Suspendisse molestie pulvinar sapien eget venenatis. Fusce a sapien augue. Maecenas volutpat magna et urna tristique sollicitudin.
-
-          Nunc eget molestie est. Fusce consequat bibendum tempus. Nunc a tincidunt arcu. Etiam et tempor metus. Aliquam erat volutpat. Donec nec tristique nulla, ut finibus ante. Donec diam felis, interdum ut erat non, rutrum pretium quam. Quisque nec imperdiet leo.
-    
-          In ornare vel urna at mollis. Sed libero quam, consectetur a suscipit iaculis, viverra ac est. Nullam feugiat venenatis nulla, quis gravida purus consectetur eget. Sed facilisis nulla a turpis eleifend ornare. Pellentesque nec diam nisl. Nulla quis ante eu mauris rhoncus vehicula at id arcu. Maecenas ut dapibus ipsum, vitae hendrerit metus. Aliquam eu posuere ipsum. Fusce in augue rhoncus, varius metus nec, ultrices odio. Quisque mollis augue justo, eu commodo orci posuere non. Donec ac augue mi. Sed in velit non augue aliquet sodales ut maximus metus. Mauris vel porta ante. Aenean varius massa lacus, quis cursus arcu hendrerit porta. Curabitur aliquet scelerisque diam.
-    
-          Pellentesque quis justo quam. Suspendisse potenti. In dignissim euismod faucibus. Nullam eros massa, gravida non ipsum sollicitudin, volutpat tristique nisi. Nulla tempor mauris vitae nisi sollicitudin, non euismod elit egestas. Cras dui velit, luctus eget laoreet in, feugiat consequat nisl. Ut gravida, nisi non rutrum fringilla, eros justo sollicitudin elit, a lacinia elit turpis non nulla. Sed vel ex accumsan ex rhoncus finibus. Aenean et tortor elementum, luctus lorem vel, consequat lectus. Curabitur id mi in velit iaculis egestas. In in elit eu diam vehicula gravida non a ipsum.`
-  },
-  {
     id: 11,
     title: "Lotomania: com prêmio de R$ 5 milhões, veja os números sorteados hoje",
     subtitle: "Lotomania 2337: os 20 números da loteria foram conhecidos na noite de hoje (17)", 
     category: "Diversidades",
     author: "Redação",
-    type: "secondary",
+    type: "main",
     postedAt: new Date("2022-02-14T12:30:00+00:00"),
     image: {
       url: "images/notas.jpg",
@@ -273,7 +229,7 @@ export const news = [
   },
   {
     id: 12,
-    title: "Lotomania: com prêmio de R$ 5 milhões, veja os números sorteados hoje",
+    title: "Lotomania: com prêmio de R$ 5 milhões, veja os números sorteados",
     subtitle: "Lotomania 2337: os 20 números da loteria foram conhecidos na noite de hoje (17)", 
     category: "Diversidades",
     author: "Redação",
@@ -295,51 +251,7 @@ export const news = [
   },
   {
     id: 13,
-    title: "Lotomania: com prêmio de R$ 5 milhões, veja os números sorteados hoje",
-    subtitle: "Lotomania 2337: os 20 números da loteria foram conhecidos na noite de hoje (17)", 
-    category: "Diversidades",
-    author: "Redação",
-    type: "secondary",
-    postedAt: new Date("2022-02-14T12:30:00+00:00"),
-    image: {
-      url: "images/notas.jpg",
-      alt: "Várias notas de real"
-    },
-    body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in efficitur quam. Nulla auctor lacus ut lacus aliquam convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque efficitur justo mauris, ac dictum erat rhoncus aliquam. Cras quis consectetur erat. Fusce dignissim eget nisi sit amet aliquet. Duis ac eleifend magna. Cras volutpat nunc orci, ut feugiat ipsum fringilla eu. In sollicitudin massa vitae tellus tincidunt euismod. Praesent faucibus posuere justo, sit amet faucibus metus vulputate in. Donec cursus enim vitae ex porttitor, non accumsan ex lobortis.
-
-          Integer tempor eget tellus quis tristique. Donec tincidunt volutpat ex sit amet feugiat. Morbi non efficitur nibh, et euismod felis. Praesent quis sem sit amet dui faucibus finibus. Fusce id nunc malesuada, placerat massa id, sodales erat. Morbi condimentum nunc ac orci eleifend hendrerit. Suspendisse molestie pulvinar sapien eget venenatis. Fusce a sapien augue. Maecenas volutpat magna et urna tristique sollicitudin.
-
-          Nunc eget molestie est. Fusce consequat bibendum tempus. Nunc a tincidunt arcu. Etiam et tempor metus. Aliquam erat volutpat. Donec nec tristique nulla, ut finibus ante. Donec diam felis, interdum ut erat non, rutrum pretium quam. Quisque nec imperdiet leo.
-    
-          In ornare vel urna at mollis. Sed libero quam, consectetur a suscipit iaculis, viverra ac est. Nullam feugiat venenatis nulla, quis gravida purus consectetur eget. Sed facilisis nulla a turpis eleifend ornare. Pellentesque nec diam nisl. Nulla quis ante eu mauris rhoncus vehicula at id arcu. Maecenas ut dapibus ipsum, vitae hendrerit metus. Aliquam eu posuere ipsum. Fusce in augue rhoncus, varius metus nec, ultrices odio. Quisque mollis augue justo, eu commodo orci posuere non. Donec ac augue mi. Sed in velit non augue aliquet sodales ut maximus metus. Mauris vel porta ante. Aenean varius massa lacus, quis cursus arcu hendrerit porta. Curabitur aliquet scelerisque diam.
-    
-          Pellentesque quis justo quam. Suspendisse potenti. In dignissim euismod faucibus. Nullam eros massa, gravida non ipsum sollicitudin, volutpat tristique nisi. Nulla tempor mauris vitae nisi sollicitudin, non euismod elit egestas. Cras dui velit, luctus eget laoreet in, feugiat consequat nisl. Ut gravida, nisi non rutrum fringilla, eros justo sollicitudin elit, a lacinia elit turpis non nulla. Sed vel ex accumsan ex rhoncus finibus. Aenean et tortor elementum, luctus lorem vel, consequat lectus. Curabitur id mi in velit iaculis egestas. In in elit eu diam vehicula gravida non a ipsum.`
-  },
-  {
-    id: 14,
-    title: "Lotomania: com prêmio de R$ 5 milhões, veja os números sorteados hoje",
-    subtitle: "Lotomania 2337: os 20 números da loteria foram conhecidos na noite de hoje (17)", 
-    category: "Diversidades",
-    author: "Redação",
-    type: "secondary",
-    postedAt: new Date("2022-02-14T12:30:00+00:00"),
-    image: {
-      url: "images/notas.jpg",
-      alt: "Várias notas de real"
-    },
-    body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in efficitur quam. Nulla auctor lacus ut lacus aliquam convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque efficitur justo mauris, ac dictum erat rhoncus aliquam. Cras quis consectetur erat. Fusce dignissim eget nisi sit amet aliquet. Duis ac eleifend magna. Cras volutpat nunc orci, ut feugiat ipsum fringilla eu. In sollicitudin massa vitae tellus tincidunt euismod. Praesent faucibus posuere justo, sit amet faucibus metus vulputate in. Donec cursus enim vitae ex porttitor, non accumsan ex lobortis.
-
-          Integer tempor eget tellus quis tristique. Donec tincidunt volutpat ex sit amet feugiat. Morbi non efficitur nibh, et euismod felis. Praesent quis sem sit amet dui faucibus finibus. Fusce id nunc malesuada, placerat massa id, sodales erat. Morbi condimentum nunc ac orci eleifend hendrerit. Suspendisse molestie pulvinar sapien eget venenatis. Fusce a sapien augue. Maecenas volutpat magna et urna tristique sollicitudin.
-
-          Nunc eget molestie est. Fusce consequat bibendum tempus. Nunc a tincidunt arcu. Etiam et tempor metus. Aliquam erat volutpat. Donec nec tristique nulla, ut finibus ante. Donec diam felis, interdum ut erat non, rutrum pretium quam. Quisque nec imperdiet leo.
-    
-          In ornare vel urna at mollis. Sed libero quam, consectetur a suscipit iaculis, viverra ac est. Nullam feugiat venenatis nulla, quis gravida purus consectetur eget. Sed facilisis nulla a turpis eleifend ornare. Pellentesque nec diam nisl. Nulla quis ante eu mauris rhoncus vehicula at id arcu. Maecenas ut dapibus ipsum, vitae hendrerit metus. Aliquam eu posuere ipsum. Fusce in augue rhoncus, varius metus nec, ultrices odio. Quisque mollis augue justo, eu commodo orci posuere non. Donec ac augue mi. Sed in velit non augue aliquet sodales ut maximus metus. Mauris vel porta ante. Aenean varius massa lacus, quis cursus arcu hendrerit porta. Curabitur aliquet scelerisque diam.
-    
-          Pellentesque quis justo quam. Suspendisse potenti. In dignissim euismod faucibus. Nullam eros massa, gravida non ipsum sollicitudin, volutpat tristique nisi. Nulla tempor mauris vitae nisi sollicitudin, non euismod elit egestas. Cras dui velit, luctus eget laoreet in, feugiat consequat nisl. Ut gravida, nisi non rutrum fringilla, eros justo sollicitudin elit, a lacinia elit turpis non nulla. Sed vel ex accumsan ex rhoncus finibus. Aenean et tortor elementum, luctus lorem vel, consequat lectus. Curabitur id mi in velit iaculis egestas. In in elit eu diam vehicula gravida non a ipsum.`
-  },
-  {
-    id: 15,
-    title: "Lotomania: com prêmio de R$ 5 milhões, veja os números sorteados hoje",
+    title: "Lotomania: com prêmio de R$ 5 milhões, veja os números sorteados",
     subtitle: "Lotomania 2337: os 20 números da loteria foram conhecidos na noite de hoje (17)", 
     category: "Diversidades",
     author: "Redação",
