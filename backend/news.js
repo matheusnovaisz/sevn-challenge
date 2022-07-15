@@ -7,10 +7,7 @@ export const news = [
     author: "Redação",
     type: "main",
     postedAt: new Date("2022-02-13T16:30:00+00:00"),
-    image: {
-      url: "images/banco-central.jpg",
-      alt: "Prédio do Banco Central"
-    },
+    image: null,
     body: `Banco Central libera consulta a dinheiro esquecido em bancos
 
           O Banco Central informou nesta segunda-feira (14) que quem não tiver valores a receber nesta etapa das consultas ao novo site de consulta aos recursos 'esquecidos' nos bancos poderá eventualmente ter nas próximas fases do sistema.
