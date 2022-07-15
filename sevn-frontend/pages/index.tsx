@@ -1,6 +1,8 @@
 import type { GetServerSideProps, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { useEffect } from 'react'
+import Chamada from '../components/Chamada'
 import Publicidade from '../components/Publicidade'
 import styles from '../styles/Home.module.css'
 import { Post } from '../utils/interfaces/Post.interface'
@@ -11,6 +13,19 @@ interface HomePageProps{
 }
 
 const Home: NextPage<HomePageProps> = ({mainNews, secondaryNews}) => {
+
+  function groupByCategory(acc: Post[][], element: Post){
+    const accIndex = acc.findIndex(newsByCategory => newsByCategory[0].category === element.category)
+    if(accIndex < 0) acc.push([element])
+    else acc[accIndex].push(element)
+    return acc
+  }
+
+  function sortCategoryByLength(categoryA: Array<any>, categoryB: Array<any>){
+    return categoryB.length - categoryA.length
+  }
+
+ 
   return (
     <div className={styles.container}>
       <Head>
@@ -22,10 +37,17 @@ const Home: NextPage<HomePageProps> = ({mainNews, secondaryNews}) => {
       <main className={styles.main}>
         <Publicidade />
         <div>
-          {mainNews.map(news => <h1 key={news.id}>{news.title}</h1>)}
+          {/* {mainNews.map(news => <h1 key={news.id}>{news.title}</h1>)} */}
         </div>
-        <div>
-          {secondaryNews.map(news => <h2 key={news.id}>{news.title}</h2>)}
+        <div className={styles.categories}>
+          {secondaryNews
+            .reduce(groupByCategory, [])
+            .sort(sortCategoryByLength)
+            .map(category => (
+              <div key={`category-${category[0].category}`} className={styles.secondaryNews}>
+                {category.map(news => <Chamada key={news.id} category={news.category} title={news.title} id={news.id}/>)}
+              </div>
+              ))}
         </div>
       </main>
     </div>
