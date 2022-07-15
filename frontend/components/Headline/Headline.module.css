@@ -1,14 +1,38 @@
+.headline{
+  cursor: pointer;
+}
+
+.headline > div{
+  position: relative;
+  padding-top: 45%;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.headline > .image {
+  border-radius: 1rem;
+}
+
 .headline > p {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 0.8rem;
 }
 
 .title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.headline:first-child > .title{
   font-size: clamp(5.8rem, 2vw, 6.4rem);
-  font-weight: bold;
   line-height: 6rem;
 }
 
 @media (min-width: 900px){
+  .headline > div{
+    padding-top: 70%;
+    max-width: 100%;
+  }
 }

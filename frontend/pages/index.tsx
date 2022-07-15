@@ -1,7 +1,5 @@
 import type { GetServerSideProps, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import { useEffect } from 'react'
 import Chamada from '../components/Chamada'
 import Headline from '../components/Headline'
 import Publicidade from '../components/Publicidade'
@@ -37,8 +35,7 @@ const Home: NextPage<HomePageProps> = ({mainNews, secondaryNews}) => {
       <main className={styles.main}>
         <Publicidade />
         <div className={styles.mainNews}>
-          {mainNews.slice(0,1).map(headline => <Headline key={headline.id} title={headline.title} id={headline.id} category={headline.category} />)}
-          {mainNews.slice(1).map(news => <h1 key={news.id}>{news.title}</h1>)}
+          {mainNews.map(headline => <Headline key={headline.id} title={headline.title} id={headline.id} category={headline.category} image={headline.image}/>)}
         </div>
         <div className={styles.categories}>
           {secondaryNews

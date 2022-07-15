@@ -10,11 +10,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 7rem;
 }
 
 .categories, .mainNews{
   display: grid;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .secondaryNews{
@@ -26,7 +27,8 @@
 @media (min-width: 900px){
 
   .categories, .mainNews{
-    display: flex
+    display: flex;
+    gap: 2rem;
   }
 
   .categories > .secondaryNews:first-child, .mainNews > *:first-child{
